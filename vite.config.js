@@ -4,9 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   base: '/fajarNurIlhamPortofolio/',
-  css: {
-    postcss: {
-      plugins: [tailwindcss()],
-    },
-  },
+  plugins: [
+    tailwindcss()
+  ]
 })
